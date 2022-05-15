@@ -3,6 +3,13 @@
    File Description: Main Css file of the template
 */
 @import url('css2.css');
+@font-face {
+  font-family: 'hys';
+  src: url('/static/font/h1/hys.ttf');
+}
+body {
+  font-family: hys !important;
+}
 body {
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden !important;
@@ -21,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Poppins', sans-serif;
+  /*font-family: 'Poppins', sans-serif;*/
   font-weight: 500;
   line-height: 1.4;
 }
