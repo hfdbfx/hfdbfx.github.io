@@ -1363,6 +1363,9 @@ textarea.form-control {
   .demo-img-2 {
     display: block;
   }
+  .none {
+    display: none;
+  }
 }
 .testi-slider {
   background-color: #f8f8f8;
