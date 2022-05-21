@@ -19,6 +19,8 @@
 
   <!-- Custom styles for this template -->
   <link href="/static/css/style.css" rel="stylesheet" />
+  <link href="/static/css/aos.css" rel="stylesheet" />
+  <script src="/static/js/aos.js"></script>
 <meta name="generator" content="Hexo 6.2.0"></head>
 
   </head>
@@ -38,6 +40,9 @@
         <ul class="navbar-nav mx-auto navbar-center">
           <li class="nav-item active">
             <a href="/#home" class="nav-link active">主页</a>
+          </li>
+          <li class="nav-item dropdown dropdown-hover">
+            <a href="/#juxin" class="nav-link">菊心</a>
           </li>
           <li class="nav-item dropdown dropdown-hover">
             <a href="/#blog" class="nav-link">产品</a></a>
@@ -204,7 +209,48 @@
   </div>
 </section>
 <!-- end section -->
- <!-- start blog -->
+ <!-- start home section -->
+<style>
+  .juxin {
+    position: relative;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+  }
+  @media (max-width: 985px) {
+    .b1 {
+      display: flex;
+      text-align: center !important;
+      justify-content: center;
+    }
+  }
+</style>
+<section class="juxin" id="juxin">
+  <div class="container" id="cta-ani">
+    <div class="home-content">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mt-5">
+          <div class="animation-image">
+            <div class="main-image mt-5 mt-lg-0 ms-lg-5 position-relative">
+              <img src="static/picture/juxin.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h2 class="title mt-5 mt-lg-0"><img src="/static/image/jz.png" class="img-fluid w-100" alt="" /></h2>
+          <p class="f-18 my-4 text-muted">金黄的菊代表着丰收希望，其作为麻城当地的支柱产业为当地带来经济效益，实现乡村振兴，共筑美好未来。同时团队秉持不忘初心，全意当下，展望未来的理念，以福白菊为切入点，竭力打造筑梦综合创新平台，为乡村振兴注入新活力。</p>
+          <a href="/all" class="b1"
+            ><button class="btn btn-primary">
+              <i class="mdi f-20 align-middle me-2"><img src="/static/image/flower-tulip-outline.png" alt="" /></i>关于菊心
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end section -->
+<!-- start blog -->
 <section class="section bg-light" id="blog">
   <div class="container">
     <div class="row justify-content-center">
